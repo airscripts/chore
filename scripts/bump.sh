@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ~/Documents/projects/chore
+cd home/airscript/Documents/projects/chore
 ../gitmate/autocommit.sh
