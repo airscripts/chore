@@ -1,0 +1,10 @@
+[Unit]
+Description=Bump chore's version.
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+Persistent=true
+Unit=chore.service
+
+[Install]
+WantedBy=timers.target

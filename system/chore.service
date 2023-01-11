@@ -1,0 +1,6 @@
+[Unit]
+Description=Bump chore's version service.
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /home/airscript/Documents/projects/chore/scripts/bump.sh
